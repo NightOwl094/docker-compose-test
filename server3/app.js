@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3001;
+const port = 3002;
 
-app.get("/", (req, res) => res.send(`this is api server ${port}`));
+app.get("/", (req, res) => res.send(`this landing page ${port}`));
 app.listen(port, console.log(`app listening at http://localhost:${port}`));
